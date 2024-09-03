@@ -1,0 +1,20 @@
+.table {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.table.available {
+    background-color: green;
+}
+
+.table.occupied {
+    background-color: red;
+}
